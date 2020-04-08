@@ -128,22 +128,3 @@ while user_option != 'q':
     # can select another option!
     print("MENU\nSort by:\ny - Year\nd - Director\nt - Movie title\nq - Quit\n")
     user_option = input("Choose an option:\n")
-
-# This challenge was really enjoyable and satisfying to complete-
-# at first it was incredibly difficult to figure out how to appropriately
-# rearrange the input information to meet the requirements, but I was
-# able to use the sorted functions to make the information appear in
-# order for the most part. The only issue I was having was handling 'The'
-# in titles, but that's a problem for another day.
-
-# This data structure is most efficient because it doesn't re-order the
-# information unless it absolutely has to in order to achieve the outcome.
-# I can't say it's simple or pretty: it's complex without being convoluted
-# or unnecessary. So, it's the best to be done with the given problem.
-
-# I used a hand-drawn flowchart that I used to map out the initial
-# information and what we needed to do with it to achieve the result
-# of printing out the information in a new order. Because we can't
-# necessarily grab information from dictionaries by the values outright, 
-# it's more long-term function friendly to reorganize and place in a 
-# new list so that it can be referred to and used again later if needed. 
